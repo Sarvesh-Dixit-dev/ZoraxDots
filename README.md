@@ -24,3 +24,15 @@
 - networkmanager
 - sww-daemon
 
+## Key binds 
+- ** You can see all key binds in hypr/binds.conf **
+- ** General Key Binds**
+
+| Keybinding        | Action              |
+|-------------------|---------------------|
+| Super + `         | Open terminal       |
+| Super + Q         | Close window        |
+| Super + A         | App launcher (Rofi) |
+| Super + E         | File manager        |
+| Super + B         | Waybar Switcher     |
+| Super + L         | Wallpaper switcher  |
