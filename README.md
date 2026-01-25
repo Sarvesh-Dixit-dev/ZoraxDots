@@ -1,7 +1,7 @@
 # ZoraxDots
 **Minimal and aesthetic Hyprland dotfiles focused on a clean workflow and visual consistency.**
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/56c21e37-a1f1-4301-9125-6d28ea89deb3" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/Sarvesh-Dixit-dev/ZoraxDots/blob/main/screenshots/2026-01-25_15-31-22.png/>
 
 ## pakages used 
 - waybar
