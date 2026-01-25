@@ -25,8 +25,8 @@
 - sww-daemon
 
 ## Key binds 
-** You can see all key binds in hypr/binds.conf **
-### General Key Binds
+**You can see all key binds in hypr/binds.conf**
+### General Key Binds:-
 
 | Keybinding        | Action              |
 |-------------------|---------------------|
@@ -37,7 +37,7 @@
 | Super + B         | Waybar Switcher     |
 | Super + L         | Wallpaper switcher  |
 
-### Workspace Related Keybinds 
+### Workspace Related Keybinds:-
 
 | Keybinding                  | Action                           |
 |-----------------------------|----------------------------------| 
