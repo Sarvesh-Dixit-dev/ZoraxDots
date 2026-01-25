@@ -1,7 +1,7 @@
 # ZoraxDots
 **Minimal and aesthetic Hyprland dotfiles focused on a clean workflow and visual consistency.**
 
-![Image](https://github.com/user-attachments/assets/1b9559fb-d3f0-4f5e-96ed-d2f8d78a27c2)
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0dbd4813-59c6-4171-b7bf-46f933337924" />
 
 ## pakages used 
 - waybar
@@ -13,3 +13,14 @@
 - starship
 - neovim
 - alacritty
+- grim 
+- slurp 
+- wl-copy 
+- xdg-desktop-portal-hyprland 
+- polkit / polkit-kde-agent 
+- pipewire / wireplumber 
+- brightnessctl 
+- playerctl 
+- networkmanager
+- sww-daemon
+
