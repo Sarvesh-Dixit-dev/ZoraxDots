@@ -25,7 +25,6 @@
 - sww-daemon
 
 ## Key binds 
-**You can see all key binds in hypr/binds.conf**
 ### General Key Binds:-
 
 | Keybinding        | Action              |
@@ -46,4 +45,5 @@
 | Super + S                   | special workspace                |
 | Super + shift + S           | move tabs to special workspaces  |
 
+**For more detail keybinds or to edit keybinds You can do in hypr/binds.conf file**
 
