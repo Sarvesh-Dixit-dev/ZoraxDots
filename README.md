@@ -3,3 +3,13 @@
 
 ![Image](https://github.com/user-attachments/assets/1b9559fb-d3f0-4f5e-96ed-d2f8d78a27c2)
 
+## pakages used 
+- waybar
+- swaync
+- matugen 
+- wofi
+- rofi
+- fastfetch
+- starship
+- neovim
+- alacritty
