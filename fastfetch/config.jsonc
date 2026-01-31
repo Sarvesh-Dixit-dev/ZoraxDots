@@ -1,145 +1,84 @@
+// Inspired by Catnap
 {
-  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
-  "logo": {
-    "source": "~/.config/fastfetch/me.png",
-    "type": "auto",
-    "height": 22,
-    "color": {
-      "1": "yellow",
-      "2": "green",
-      "3": "white",
-      "4": "black",
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+    	"source": "~/.config/fastfetch/pngs/arch.png",
+    	"type": "kitty",
+    	"height": 10,
+    	"padding": {
+    		"top": 1
+    	}
     },
-    "padding": {
-      "top": 1,
-      "left": 2,
-      "right": 4,
+    "display": {
+        "separator": " "
     },
-  },
-  "display": {
-    "bar": {
-      "char": {
-        "total": "─",
-      },
-      "width": 10,
-    },
-    "percent": {
-      "type": 3,
-      "ndigits": 2,
-    },
-    "key": {
-      "width": 16,
-    },
-    "color": "blink_",
-    "separator": "",
-  },
-  "modules": [
-    "break",
-    {
-      "type": "title",
-      "key": "  ",
-      "keyWidth": 4,
-      "keyColor": "cyan",
-      "format": "{#36}{1}@{2}",
-    },
-    {
-      "type": "datetime",
-      "key": " ",
-      "format": " {#white}󰃮 {1}-{4}-{10} {14}:{18}:{20} ({22})",
-    },
-    "break",
-    {
-      "type": "custom",
-      "key": "╭─System─────┬──────────────────────────────────────╮",
-      "keyColor": "green",
-    },
-    {
-      "type": "host",
-      "key": "├╴ PC       │",
-      "keyColor": "green",
-    },
-    {
-      "type": "os",
-      "key": "├╴ OS       │",
-      "keyColor": "green",
-    },
-    {
-      "type": "packages",
-      "key": "├╴󰏖 Packages │",
-      "keyColor": "green",
-    },
-    {
-      "type": "uptime",
-      "key": "├╴󰥔 Uptime   │",
-      "keyColor": "green",
-    },
-    {
-      "type": "custom",
-      "key": "╰────────────┴──────────────────────────────────────╯",
-      "keyColor": "green",
-    },
-    {
-      "type": "custom",
-      "key": "╭─Terminal───┬────────────────────────────────────────╮",
-      "keyColor": "yellow",
-    },
-    {
-      "type": "shell",
-      "key": "├╴ Shell    │",
-      "keyColor": "yellow",
-    },
-    {
-      "type": "terminal",
-      "key": "├╴ Terminal │",
-      "keyColor": "yellow",
-    },
-    {
-      "type": "terminalfont",
-      "key": "├╴ Font     │",
-      "keyColor": "yellow",
-    },
-    {
-      "type": "custom",
-      "key": "╰────────────┴────────────────────────────────────────╯",
-      "keyColor": "yellow",
-    },
-    {
-      "type": "custom",
-      "key": "╭─Hardware───┬─────────────────────────────────────────────────╮",
-      "keyColor": "red",
-    },
-    {
-      "type": "display",
-      "key": "├╴󰍹 Display  │",
-      "keyColor": "red",
-      "format": "{1}×{2}, {3}Hz [{7}]",
-    },
-    {
-      "type": "cpu",
-      "key": "├╴ CPU      │",
-      "keyColor": "red",
-      "format": "{1} [{3} cores]",
-    },
-    {
-      "type": "gpu",
-      "key": "├╴󰢮 GPU      │",
-      "keyColor": "red",
-    },
-    {
-      "type": "memory",
-      "key": "├╴ RAM      │",
-      "keyColor": "red",
-    },
-    {
-      "type": "disk",
-      "key": "├╴ Disk     │",
-      "keyColor": "red",
-      "format": "{13} {1} / {2} ({3})",
-    },
-    {
-      "type": "custom",
-      "key": "╰────────────┴─────────────────────────────────────────────────╯",
-      "keyColor": "red",
-    },
-  ],
+    "modules": [
+        {
+            "key": "╭───────────╮",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#31} user    {#keys}│",
+            "type": "title",
+            "format": "{user-name}"
+        },
+        {
+            "key": "│ {#32}󰇅 hname   {#keys}│",
+            "type": "title",
+            "format": "{host-name}"
+        },
+        {
+            "key": "│ {#33}󰅐 uptime  {#keys}│",
+            "type": "uptime"
+        },
+     
+        {
+            "key": "│ {#35} kernel  {#keys}│",
+            "type": "kernel"
+        },
+        {
+            "key": "│ {#36}󰇄 desktop {#keys}│",
+            "type": "de"
+        },
+        {
+            "key": "│ {#31} term    {#keys}│",
+            "type": "terminal"
+        },
+        {
+            "key": "│ {#32} shell   {#keys}│",
+            "type": "shell"
+        },
+        {
+            "key": "│ {#33}󰍛 cpu     {#keys}│",
+            "type": "cpu",
+            "showPeCoreCount": true
+        },
+        {
+            "key": "│ {#34}󰉉 disk    {#keys}│",
+            "type": "disk",
+            "folders": "/"
+        },
+        {
+            "key": "│ {#35} memory  {#keys}│",
+            "type": "memory"
+        },
+        {
+            "key": "│ {#36}󰩟 network {#keys}│",
+            "type": "localip",
+            "format": "{ipv4} ({ifname})"
+        },
+        {
+            "key": "├───────────┤",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#39} colors  {#keys}│",
+            "type": "colors",
+            "symbol": "circle"
+        },
+        {
+            "key": "╰───────────╯",
+            "type": "custom"
+        }
+    ]
 }
