@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 WB="$HOME/.config/waybar"
-THEMES_DIR="$WB/themes"
+THEMES_DIR="$WB/Mango"
 
 # Toggle rofi: if already running, close it
 if pgrep -x rofi >/dev/null; then
