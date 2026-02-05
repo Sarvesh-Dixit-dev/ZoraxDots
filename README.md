@@ -40,5 +40,22 @@
 
 
 
+---
 
+## Credits
 
+Some files in this repository are adapted from **HyprKenso Dotfiles**
+by Aadrito Basu.
+
+Files used:
+- music.py
+- sl.rasi
+- ce.rasi
+- ts.rasi
+- wlogout.sh
+- hyprlock.sh
+
+Original repository:
+https://github.com/aadritobasu
+
+License: CC BY-NC-SA 4.0
