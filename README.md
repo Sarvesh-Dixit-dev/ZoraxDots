@@ -54,8 +54,7 @@ Files used:
 - ts.rasi
 - wlogout.sh
 - hyprlock.sh
-
-Original repository:
+repository:
 https://github.com/aadritobasu/HyprKenso
 
 License: CC BY-NC-SA 4.0
