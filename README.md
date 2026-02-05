@@ -3,7 +3,7 @@
 
 ## Suported WM
 - [Hyprland](https://github.com/hyprwm/Hyprland)
-- [Mangowc](https://github.com/DreamMaoMao/mangowc)
+- [Mangowc](https://github.com/DreamMaoMao/mangowc) - support currently removed !
 
 ## Showcase
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0e5c72f8-ea12-43d3-a56f-d29488ce41d7" />
