@@ -55,6 +55,7 @@ Files used:
 - wlogout.sh
 - syslauncher.sh
 - hyprlock.sh
+- hyprlock.conf
 repository:
 https://github.com/aadritobasu/HyprKenso
 
