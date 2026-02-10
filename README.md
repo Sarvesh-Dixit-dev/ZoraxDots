@@ -53,11 +53,11 @@ chmod +x install.sh
 > [!TIP]
 > Install script auto download yay if not found however we reccomend to download yay before running installation
 
+---
 <h2 id="binds">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&weight=900&size=29&pause=1000&color=9B3BBC&width=435&height=43&lines=KEY+BINDS" alt="Typing SVG" /></a>
 </h2>
 
----
 - **YOU WILL FIND ALL KEYBINDS IN hypr/config/binds.confconf**
 - Some Imp KEYBINDS 
 
@@ -71,11 +71,10 @@ chmod +x install.sh
 | Super + B | Waybar Switcher |
 | Super + Shift + S | Screenshot |
 
+---
 <h2 id="screenshot">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&weight=900&size=29&pause=1000&color=9B3BBC&width=435&height=43&lines=SCREENSHOTS" alt="Typing SVG" /></a>
 </h2>
-
----
 
 <p align="center">
   <img src="Screenshots/image4.png" width="90%" />
